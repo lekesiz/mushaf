@@ -638,6 +638,382 @@ export const topics: Topic[] = [
     description:
       'İnsanlara, çalışana, eşe, doğaya veya hayvanlara eziyet etmek; gücünü kullanarak başkasının hakkını gasp etmek.',
   },
+
+  // ── YENİ EKLENEN KONULAR (47 konu) ──────────────────────────────────────
+
+  // İBADETLER
+  {
+    id: 'abdest',
+    letter: 'A',
+    title: 'Abdest',
+    type: 'worship',
+    description:
+      'Namaz kılmadan önce yüz, eller, baş ve ayakları yıkayarak temizlenmek; manevi arınmanın fiziksel boyutu. (Maide 5:6)',
+  },
+  {
+    id: 'adak',
+    letter: 'A',
+    title: 'Adak (Nezir)',
+    type: 'worship',
+    description:
+      "Allah'a verilen sözü (adağı) yerine getirmek; adakların insanlara faydalı şeyler için yapılması. (Hac 22:29, İnsan 76:7)",
+  },
+  {
+    id: 'cuma-namazi',
+    letter: 'C',
+    title: 'Cuma Namazı',
+    type: 'worship',
+    description:
+      'Her Cuma günü öğle vaktinde cemaatle kılınan ve alışverişin bırakılmasını emreden haftalık ibadet. (Cuma 62:9)',
+  },
+  {
+    id: 'gece-ihyasi',
+    letter: 'G',
+    title: 'Geceyi İhya Etmek (Teheccüd)',
+    type: 'worship',
+    description:
+      'Gece namazı kılmak, geceleri ibadetle değerlendirmek; teheccüd namazının fazileti. (Müzzemmil 73:2-4, İsra 17:79)',
+  },
+  {
+    id: 'gusul',
+    letter: 'G',
+    title: 'Gusül (Boy Abdesti)',
+    type: 'worship',
+    description:
+      'Cünüplük, hayız ve nifas sonrası tüm vücudu yıkayarak temizlenmek; büyük hadesten taharet. (Maide 5:6, Nisa 4:43)',
+  },
+  {
+    id: 'itikaf',
+    letter: 'İ',
+    title: 'İtikâf',
+    type: 'worship',
+    description:
+      "Özellikle Ramazan'ın son on gününde mescitte inzivaya çekilerek ibadete yoğunlaşmak. (Bakara 2:187)",
+  },
+  {
+    id: 'kefaret',
+    letter: 'K',
+    title: 'Kefaret',
+    type: 'worship',
+    description:
+      'Yemin bozma, yanlışlıkla adam öldürme veya zihar gibi durumlarda uygulanan telafi ibadeti. (Maide 5:89, Nisa 4:92)',
+  },
+  {
+    id: 'kible',
+    letter: 'K',
+    title: "Kıbleye Yönelmek (Mescid-i Haram)",
+    type: 'worship',
+    description:
+      "Namaz kılarken yüzü Mescid-i Haram'a (Kâbe) çevirmek; ibadetlerde birlik ve yönün sembolü. (Bakara 2:144, 149-150)",
+  },
+  {
+    id: 'zikir',
+    letter: 'Z',
+    title: "Zikir (Allah'ı Çokça Anmak)",
+    type: 'worship',
+    description:
+      "Allah'ı dil ve kalple çokça anmak; zikrin kalplere huzur verdiği ve imanı pekiştirdiği. (Ahzab 33:41, Rad 13:28)",
+  },
+
+  // EMİR VE TAVSİYELER
+  {
+    id: 'aile-ici-huzur',
+    letter: 'A',
+    title: 'Aile İçi Huzur ve Karşılıklı Sevgi',
+    type: 'command',
+    description:
+      'Eşler arasında sevgi, şefkat ve huzurun tesis edilmesi; evliliğin Allah\'ın bir nimeti olarak görülmesi. (Rum 30:21, Nisa 4:19)',
+  },
+  {
+    id: 'bosanma-kurallari',
+    letter: 'B',
+    title: 'Boşanma (Talak) Kuralları',
+    type: 'command',
+    description:
+      'Boşanmanın belirli kurallara göre yapılması; iddet süresi, rücu hakkı ve adil ayrılık ilkeleri. (Talak 65:1-2, Bakara 2:228-232)',
+  },
+  {
+    id: 'cihat-kurallari',
+    letter: 'C',
+    title: 'Cihad ve Savaş Kuralları',
+    type: 'command',
+    description:
+      'Savaşın meşru savunma koşulları, savaşta sivillere dokunmama, esir hakları ve barış teklifini kabul etme. (Bakara 2:190-194, Enfal 8:61)',
+  },
+  {
+    id: 'hayirlarda-yarisma',
+    letter: 'H',
+    title: 'Hayırlarda Yarışmak',
+    type: 'command',
+    description:
+      'İyilik, infak ve güzel amellerde öne geçmek için yarışmak; hayırda öncü olmak. (Bakara 2:148, Maide 5:48)',
+  },
+  {
+    id: 'harcamada-orta-yol',
+    letter: 'H',
+    title: 'Harcamada Orta Yol',
+    type: 'command',
+    description:
+      'Ne cimrilik ne de savurganlık; harcamalarda dengeli ve ölçülü olmak. (İsra 17:29, Furkan 25:67)',
+  },
+  {
+    id: 'hukumde-adalet',
+    letter: 'H',
+    title: "Hükümde Adalet (Allah'ın İndirdiğiyle Yönetmek)",
+    type: 'command',
+    description:
+      "Yargı ve yönetimde Allah'ın indirdiği hükümlere göre karar vermek; tarafsız ve adil yargı. (Maide 5:44-45, Nisa 4:58)",
+  },
+  {
+    id: 'ibadet-yerinde-giyim',
+    letter: 'İ',
+    title: 'İbadet Yerlerinde Temiz ve Güzel Giyinmek',
+    type: 'command',
+    description:
+      'Mescide ve ibadete giderken temiz, güzel ve örtülü giyinmek; Allah\'a saygının dış görünüşe yansıması. (Araf 7:31)',
+  },
+  {
+    id: 'iddet',
+    letter: 'İ',
+    title: 'İddet (Bekleme Süresi)',
+    type: 'command',
+    description:
+      'Boşanan veya kocası ölen kadının yeniden evlenmeden önce beklemesi gereken süre; neslin korunması. (Bakara 2:228, 234, Talak 65:4)',
+  },
+  {
+    id: 'ihsan',
+    letter: 'İ',
+    title: 'İhsan (En Güzel Şekilde Yapmak)',
+    type: 'command',
+    description:
+      "Allah'ı görüyormuş gibi her işi ve ibadeti en güzel ve eksiksiz biçimde yapmak. (Bakara 2:195, Nahl 16:90)",
+  },
+  {
+    id: 'kisas',
+    letter: 'K',
+    title: 'Kısas (Eşit Karşılık İlkesi)',
+    type: 'command',
+    description:
+      'Kasıtlı öldürme ve yaralamada eşit karşılık hakkı; affetmenin ise daha faziletli olduğu ilkesi. (Bakara 2:178-179, Maide 5:45)',
+  },
+  {
+    id: 'kole-azat',
+    letter: 'K',
+    title: 'Köle Azat Etmek',
+    type: 'command',
+    description:
+      "Kur'an'ın köleliği kaldırmaya yönelik teşvik ettiği özgürleştirme eylemi; kefaret ve hayır olarak köle azat. (Beled 90:13, Nisa 4:92)",
+  },
+  {
+    id: 'kuran-dinlemek',
+    letter: 'K',
+    title: "Kur'an Okunurken Dinlemek ve Susmak",
+    type: 'command',
+    description:
+      "Kur'an okunduğunda saygıyla dinlemek, susmak ve dikkat etmek. (Araf 7:204)",
+  },
+  {
+    id: 'mehir',
+    letter: 'M',
+    title: 'Mehir (Evlilik Bedeli)',
+    type: 'command',
+    description:
+      "Erkeğin evlendiği kadına gönül rızasıyla vermesi gereken mali hak; kadının ekonomik güvencesi. (Nisa 4:4, 4:24)",
+  },
+  {
+    id: 'miras',
+    letter: 'M',
+    title: 'Miras (Feraiz) Hükümleri',
+    type: 'command',
+    description:
+      "Ölen kişinin malının Kur'an'da belirlenen oranlarda mirasçılara paylaştırılması; ekonomik adalet. (Nisa 4:11-12, 4:176)",
+  },
+  {
+    id: 'nafaka',
+    letter: 'N',
+    title: 'Nafaka Yükümlülüğü',
+    type: 'command',
+    description:
+      "Erkeğin eşine ve çocuklarına geçimlerini sağlama zorunluluğu; aile içi ekonomik sorumluluk. (Bakara 2:233, Talak 65:6-7)",
+  },
+  {
+    id: 'nikah',
+    letter: 'N',
+    title: 'Nikâh (Evlilik Akdi)',
+    type: 'command',
+    description:
+      'Evliliğin meşru bir akit ile kurulması; bekâr olanların evlendirilmesi ve evlilikte karşılıklı haklar. (Nur 24:32, Nisa 4:4)',
+  },
+  {
+    id: 'peygambere-itaat',
+    letter: 'P',
+    title: 'Peygambere İtaat ve Saygı',
+    type: 'command',
+    description:
+      "Hz. Muhammed'e itaat etmek, ona saygı göstermek ve sesini onun sesinin üstüne yükseltmemek. (Nisa 4:59, Hucurat 49:1-3)",
+  },
+  {
+    id: 'sadaka',
+    letter: 'S',
+    title: 'Sadaka ve Gönüllü Yardım',
+    type: 'command',
+    description:
+      'Zekâtın ötesinde gönüllü olarak yoksullara, ihtiyaç sahiplerine ve yolda kalmışlara yardım etmek. (Bakara 2:177, 271-274)',
+  },
+  {
+    id: 'sozlesme',
+    letter: 'S',
+    title: 'Sözleşmelere ve Antlaşmalara Uymak',
+    type: 'command',
+    description:
+      'Verilen sözlerin, yapılan anlaşmaların ve akitlerin eksiksiz yerine getirilmesi. (Maide 5:1, Nahl 16:91)',
+  },
+  {
+    id: 'ticaret-ahlaki',
+    letter: 'T',
+    title: 'Ticaret Ahlakı',
+    type: 'command',
+    description:
+      'Alışverişte dürüstlük, karşılıklı rıza ve yazılı sözleşme; ticaretin helal kazanç çerçevesinde yürütülmesi. (Nisa 4:29, Bakara 2:282)',
+  },
+  {
+    id: 'vasiyet',
+    letter: 'V',
+    title: 'Vasiyet',
+    type: 'command',
+    description:
+      'Ölüm öncesinde mal ve hakların nasıl paylaştırılacağını yazılı olarak belirleme; hak sahiplerini koruma. (Bakara 2:180, Maide 5:106)',
+  },
+  {
+    id: 'yetimlere-bakim',
+    letter: 'Y',
+    title: 'Yetimlere Bakım ve Hak Gözetimi',
+    type: 'command',
+    description:
+      'Yetim çocukların mallarını korumak, onlara adil davranmak ve büyüyünce mallarını iade etmek. (Nisa 4:2-3, 4:10)',
+  },
+
+  // YASAKLAR
+  {
+    id: 'acimasizlik',
+    letter: 'A',
+    title: 'Acımasızlık ve Katı Kalplilik',
+    type: 'prohibition',
+    description:
+      "İnsanlara karşı katı ve kaba davranmak; peygamberin yumuşak huyluluğunun örnek alınması. (Al-i İmran 3:159)",
+  },
+  {
+    id: 'cocuklari-oldurme',
+    letter: 'Ç',
+    title: 'Çocukları Öldürmemek (Kız Çocuğu Cinayeti)',
+    type: 'prohibition',
+    description:
+      'Geçim korkusuyla çocukları öldürmek ve kız çocuklarını diri diri gömmek (vad) yasağı. (İsra 17:31, Tekvir 81:8-9)',
+  },
+  {
+    id: 'dedikodu',
+    letter: 'D',
+    title: 'Dedikodu ve Asılsız Haber Yaymak',
+    type: 'prohibition',
+    description:
+      'Doğruluğu araştırılmadan haberlerin yayılması; asılsız söylentilerin toplumsal zarara yol açması. (Hucurat 49:6, Nur 24:15-16)',
+  },
+  {
+    id: 'diger-dinlere-hakaret',
+    letter: 'D',
+    title: 'Diğer Dinlere Hakaret Etmemek',
+    type: 'prohibition',
+    description:
+      "Başka dinlerin ibadethanelerine ve kutsal değerlerine sövmemek; karşılıklı saygı. (Enam 6:108)",
+  },
+  {
+    id: 'dinde-ayrilik',
+    letter: 'D',
+    title: 'Dinde Ayrılık ve Fırkalara Bölünmek',
+    type: 'prohibition',
+    description:
+      "Müminlerin birliğini bozmak, dinde fırkalara ayrılmak ve toplumsal bütünlüğü parçalamak. (Al-i İmran 3:103, Enam 6:159)",
+  },
+  {
+    id: 'dinde-zorlama',
+    letter: 'D',
+    title: 'Dinde Zorlama Yasağı',
+    type: 'prohibition',
+    description:
+      "Kimsenin dini inancı konusunda zorlanamayacağı; doğru yol açıkça ortaya konmuştur, tercih özgürdür. (Bakara 2:256, Yunus 10:99)",
+  },
+  {
+    id: 'dilenci-azarlamak',
+    letter: 'D',
+    title: 'Dilenciyi Azarlamak',
+    type: 'prohibition',
+    description:
+      'Bir şey isteyen kişiyi azarlamak, hor görmek ve geri çevirmek. (Duha 93:10)',
+  },
+  {
+    id: 'domuz-yasagi',
+    letter: 'D',
+    title: 'Domuz Eti Yasağı',
+    type: 'prohibition',
+    description:
+      'Domuz etinin açıkça haram kılınması; zorunluluk halinde ise istisna tanınması. (Bakara 2:173, Maide 5:3)',
+  },
+  {
+    id: 'fitne',
+    letter: 'F',
+    title: 'Fitne Çıkarmak',
+    type: 'prohibition',
+    description:
+      "Toplumda kaos, ayrılık ve kargaşa çıkarmak; fitnenin öldürmekten daha ağır bir suç olduğu. (Bakara 2:191, 2:217)",
+  },
+  {
+    id: 'haksiz-mal',
+    letter: 'H',
+    title: 'Haksız Yollarla Mal Edinmek',
+    type: 'prohibition',
+    description:
+      "Başkasının malını haksız yollarla almak, rüşvet vermek ve hâkimlere mal yedirerek hak kazanmaya çalışmak. (Bakara 2:188, Nisa 4:29)",
+  },
+  {
+    id: 'les-yasagi',
+    letter: 'L',
+    title: 'Leş ve Haram Gıdalar Yasağı',
+    type: 'prohibition',
+    description:
+      "Ölü hayvan eti, kan, Allah'tan başkası adına kesilen ve usulüne uygun kesilmemiş hayvanların yenmesi yasağı. (Bakara 2:173, Maide 5:3)",
+  },
+  {
+    id: 'musrik-evlilik',
+    letter: 'M',
+    title: 'Müşriklerle Evlenme Yasağı',
+    type: 'prohibition',
+    description:
+      "Allah'a ortak koşan kişilerle evlenmemek; mümin bir kölenin müşrik bir özgür kişiden daha hayırlı olduğu. (Bakara 2:221)",
+  },
+  {
+    id: 'nefsi-tehlikeye-atmak',
+    letter: 'N',
+    title: 'Nefsi Tehlikeye Atmak',
+    type: 'prohibition',
+    description:
+      'Kendi canını tehlikeye atmak, kendine zarar vermek ve helake sürüklenmek. (Bakara 2:195)',
+  },
+  {
+    id: 'yeminleri-bozmamak',
+    letter: 'Y',
+    title: 'Yeminleri Bozmamak',
+    type: 'prohibition',
+    description:
+      'Verilen yeminleri bozmamak; yemini bahane ederek iyilikten kaçınmamak. (Nahl 16:91-94, Bakara 2:224)',
+  },
+  {
+    id: 'yetim-horlamak',
+    letter: 'Y',
+    title: 'Yetimi Horlamak ve Kovmak',
+    type: 'prohibition',
+    description:
+      'Yetim çocukları aşağılamak, haklarını çiğnemek ve onları itmek; toplumun en savunmasız kesimine kötü davranmak. (Duha 93:9, Maun 107:2)',
+  },
 ];
 
 export const letters = [...new Set(topics.map((t) => t.letter))].sort((a, b) =>
