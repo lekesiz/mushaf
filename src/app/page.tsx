@@ -8,6 +8,7 @@ import { HeroSearch } from '@/components/HeroSearch';
 import { CategoryFilter } from '@/components/CategoryFilter';
 import { AlphaNav } from '@/components/AlphaNav';
 import { LetterSection } from '@/components/LetterSection';
+import Footer from '@/components/Footer';
 
 type FilterType = 'all' | TopicType;
 
@@ -137,17 +138,7 @@ export default function Home() {
         )}
       </main>
 
-      <footer className="border-t border-slate-200 bg-white py-8 dark:border-slate-800 dark:bg-slate-950">
-        <div className="mx-auto max-w-3xl px-4 text-center sm:px-6">
-          <p className="text-sm text-slate-500 dark:text-slate-400">
-            <span className="font-semibold text-slate-700 dark:text-slate-300">Mushaf</span>
-            {' · '}Kur&apos;an Yaşam Rehberi · A&apos;dan Z&apos;ye İslami Prensipler
-          </p>
-          <p className="mt-1 text-xs text-slate-400 dark:text-slate-500">
-            Bu uygulama bilgilendirme amaçlıdır. Dini konularda uzman görüşü alınması tavsiye edilir.
-          </p>
-        </div>
-      </footer>
+      <Footer />
     </div>
   );
 }
